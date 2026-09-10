@@ -1,0 +1,171 @@
+
+
+.whole {
+    background-image: url(abeve.jpg);
+    text-align: right;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+#navbar button{
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    color:rgb(253, 251, 255) ;;
+    border:none;
+    margin-left:20px ;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#longlogo{
+    height: 60px;
+}
+
+
+#navbar{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    height: 70px;
+
+    background-color: rgba(235, 246, 250, 0.25);
+    backdrop-filter: blur(8px);
+    border : 1px solid rgba(255, 255, 255, 0.2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#genbut{
+    border : 1px solid black;
+    backdrop-filter: blur(12px);
+    background-image:url(backkgp.png);
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+    color:rgb(252, 250, 255) ;
+    background-color: rgb(103, 38, 255);
+    cursor: pointer;
+     
+}
+
+#mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding-top: 220px;
+    margin-top: 0%;
+    color: rgb(242, 240, 245);
+}
+
+#mid h1{
+    font-size:72px;
+    margin:0 ;
+    letter-spacing: 3px;
+    text-shadow: 0 10px 20px rgb(103, 38, 255);
+    color:rgb(250, 249, 253);
+    letter-spacing: 2px;
+}
+.gbut{
+  padding-top: 50px;
+}
+
+
+#about{
+    background-image: url(abeve.jpg);
+    background-position: relative;
+    border: 5px solid rgb(255, 255, 255);
+}
+#abh1{
+    color:rgb(103, 38, 255);
+    align-items: left;
+    font-size: 50px;
+}
+#abpre{
+    margin:5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 60%;
+    text-align: left;
+    color:rgb(253, 251, 255) ;
+}
+
+#event{
+    background-image: url(abeve.jpg);
+    background-position: relative;
+     border: 5px solid rgb(254, 253, 255);
+}
+#eveh1{
+    color:rgb(103, 38, 255);
+    align-items: right;
+    font-size: 50px;
+}
+#evep{
+    margin:5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 60%;
+    text-align: left;
+    color:rgb(252, 251, 254);
+}
+
+
+#tickettype{
+    background-image: url(abeve.jpg);
+    background-position: relative;
+     border: 5px solid rgb(254, 253, 255);
+}
+#tickettype h1{
+    color:rgb(103, 38, 255);
+    align-items: right;
+    font-size: 50px;
+}
+#s{
+    color:rgb(192,192,192);
+    align-items: right;
+    font-size: 30px;
+}
+#g{
+    color:rgb(255,215,0);
+    align-items: right;
+    font-size: 30px;
+}
+#pl{
+    color:rgb(229,228,226);
+    align-items: right;
+    font-size: 30px;
+}
+#tickettype p{
+    margin:5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 60%;
+    text-align: left;
+    color:rgb(252, 251, 254);
+}
+
+#contact{
+    background-image: url(abeve.jpg);
+    background-position: relative;
+     border: 5px solid rgb(253, 253, 255);
+}
+#coc{
+    margin:5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 60%;
+    text-align: left;
+    color:rgb(253, 253, 253);
+}

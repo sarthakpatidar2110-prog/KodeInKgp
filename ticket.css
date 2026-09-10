@@ -1,0 +1,64 @@
+*{
+  background-image: url(abeve.jpg);
+  background-position: relative;
+}
+
+#navbar button{
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    color:rgb(253, 251, 255) ;;
+    border:none;
+    margin-left:20px ;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#navbar{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1200px;
+    height: 70px;
+
+    background-color: rgba(235, 246, 250, 0.25);
+    backdrop-filter: blur(8px);
+    border : 1px solid rgba(255, 255, 255, 0.2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#longlogo{
+    height: 60px;
+}
+
+#inputs{
+    padding-left:30%;
+    padding-top: 180px;
+    font-size: 40px;
+    color:white;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    color:white;
+    font-size: 35px;
+}
+
+select{
+    margin-bottom:15px ;
+    font-size:35px ;
+    color:white;
+    background-color:transparent ;
+}
+
+select option{
+    font-size: 30px;
+    color:black;
+    background-color: white;
+}
